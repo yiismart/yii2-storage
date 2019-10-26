@@ -6,7 +6,6 @@ use Yii;
 
 class FileStorage extends BaseStorage
 {
-
     /**
      * @var string Path of directory where files stores
      */
@@ -48,5 +47,4 @@ class FileStorage extends BaseStorage
 
         return @unlink($filename);
     }
-
 }

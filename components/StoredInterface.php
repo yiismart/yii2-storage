@@ -7,7 +7,6 @@ namespace smart\storage\components;
  */
 interface StoredInterface
 {
-
     /**
      * Return files that conform to object earlier.
      * @return string[]
@@ -26,5 +25,4 @@ interface StoredInterface
      * @return void
      */
     public function setFiles($files);
-
 }

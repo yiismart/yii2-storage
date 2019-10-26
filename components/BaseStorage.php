@@ -12,7 +12,6 @@ use yii\web\UploadedFile;
  */
 abstract class BaseStorage extends Component implements StorageInterface, BootstrapInterface
 {
-
     /**
      * @var string path of directory that contents cached files relative to web root.
      */
@@ -315,5 +314,4 @@ abstract class BaseStorage extends Component implements StorageInterface, Bootst
             $this->cache($file);
         }
     }
-
 }

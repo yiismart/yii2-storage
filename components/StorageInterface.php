@@ -7,7 +7,6 @@ namespace smart\storage\components;
  */
 interface StorageInterface
 {
-
     /**
      * Saving uploaded file in temporary directory.
      * @param string $name Form name of uploaded file.
@@ -58,5 +57,4 @@ interface StorageInterface
      * @return void
      */
     public function cacheObject(StoredInterface $object);
-
 }
